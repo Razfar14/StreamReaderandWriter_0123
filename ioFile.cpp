@@ -13,6 +13,8 @@ int main(){
     //unlimited loop untuk menulis
     while(true){
         cout << "- ";
+        //menamdapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
     }
         //tutup file setelah selesai
     }
