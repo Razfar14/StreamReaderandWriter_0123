@@ -29,6 +29,9 @@ int main(){
     cout << "\n >= Membuka dan membaca file \n";
     //jika file ada maka
     if (infile.is_open()) {
+        //memlakukan perulangan setiap baris
+        while(getline(infile, baris)) {
+        }
         //tutup file setelah selesai
     }
     
