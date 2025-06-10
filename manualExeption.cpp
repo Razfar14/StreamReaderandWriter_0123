@@ -13,7 +13,7 @@ int main(){
     }
     catch(...){
         //*jika selesai interger maka blok ini akan dieksekusi*/
-        cout << "Pengecualian lainnya akan dieksekusi\n";
+        cout << "Defaault Pengecualian lainnya akan dieksekusi\n";
     }
     return 0;
 }
