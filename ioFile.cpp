@@ -22,6 +22,8 @@ int main(){
     }
     //selasai dalam menulis sekarang tutup file
     outfile.close();
+    //membuka file dalam mode membaca
+    ifstream infile;
         //tutup file setelah selesai
     }
     
