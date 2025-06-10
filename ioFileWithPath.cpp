@@ -8,3 +8,5 @@ int main(){
     string NamaFile;
     cout << "Masukkan nama file : ";
     cin >> NamaFile;
+    // membuka file dalam mode menulis
+    ofstream outfile;
